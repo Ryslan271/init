@@ -3,3 +3,4 @@ flask_ngrok
 sqlalchemy
 flask_login
 flask_sqlalchemy
+psycopg2
