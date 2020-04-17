@@ -8,7 +8,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 
 app = Flask(__name__)
 app.secret_key = 'some secret salt'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://postgres:123@localhost/py_sweater'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://postgres:123/py_sweater'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 manager = LoginManager(app)
