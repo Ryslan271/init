@@ -1,0 +1,149 @@
+body { margin: 0; }
+   #sidebar, #content { position: absolute; } 
+   #sidebar, #content { overflow: auto; padding: 1px;}
+
+#header h1 { padding: 20px; margin: 0; }
+
+#header {
+    height: 75px;
+    background: rgb(179, 255, 0); border-bottom: 2px solid #7B5427;
+    margin-top: 0;
+    
+}
+
+#content {
+    top: 80px; 
+    left: 170px; 
+    bottom: 0; right: 0;
+    text-align: center;
+}
+
+#atop {
+    font-size: 40px;
+    color: #000000;
+    color: rgb(49, 49, 49); 
+	background: rgb(179, 255, 0); 
+	padding: 5px; 
+	border-radius: 5px;
+    border: 2px solid rgb(179, 255, 0);
+    margin-top: 5px;
+    font-family: 'Monotype Corsiva';
+    text-decoration: none;
+}
+
+#atop:hover { 
+    background: rgb(181, 218, 49); 
+    border-radius: 10px;
+}
+
+#knopka {
+	color: rgb(49, 49, 49); 
+	background: rgb(179, 255, 0); 
+	padding: 5px; 
+	border-radius: 10px;
+    border: 2px solid rgb(179, 255, 0);
+} 
+
+#knopka:hover { 
+    background: rgb(181, 218, 49); 
+    border-radius: 10px;
+}
+
+#h1os {
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+#hr {
+    border: none; 
+    background-color: rgb(121, 229, 236); 
+    color: rgb(121, 229, 236); 
+    height: 3px; 
+    width: 800px;
+}
+
+#navbar {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 150px;
+}
+
+#navbar li {
+    border-left: 10px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+#navbar a {
+    background-color: #949494;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-left: 5px solid #33ADFF;
+    display: block;
+}
+
+#navbar li:hover { 
+    background: rgb(181, 218, 49); 
+    border-radius: 10px;
+}
+
+#uldown {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+    
+}
+
+#pos {
+    font-family: 'Сomic Sans MS';
+    font-size: 17px;
+}
+
+#miniOs {
+    width: 700px;
+    height: 140px;
+    margin-left: 300px;
+}
+
+#Book {
+    text-align: center;
+}
+
+#img {
+    border: 5px solid #32351a;
+}
+
+#menu{
+    display: inline-block;
+    float: left;
+}
+
+#tbos {
+    margin: auto;
+    text-align: center;
+}
+
+#Os {
+    width: 700px;
+    height: 240px;
+    margin-left: 300px;
+}
+
+#spanos {
+    font-size: 17px;
+}
+
+form.login_form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    background-color: #FFDAB9;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
